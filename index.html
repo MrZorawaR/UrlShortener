@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Url Shortener</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/ezjqphcn.json"
+    trigger="hover"
+    state="in-reveal"
+    colors="primary:#4158D0,secondary:#FFCC70"
+    style="width:250px;height:250px">
+</lord-icon>
+<br>
+<h1>Link Shortener</h1><br>
+<input type="text" name="longUrl" id="longUrl" placeholder="Enter the URL that you want to be shorten">
+<div class="button">
+    <button id="reload-btn">
+        <i class='bx bx-refresh' ></i>Refresh
+    </button>
+    <button id="shorten-btn">
+        <i class='bx bx-link'></i>Shorten URL
+    </button>
+</div>
+<label for="shortUrl">Shortened URL</label>
+<textarea id="shortUrl"></textarea>
+<button id="copyBtn">
+    <i class='bx bx-copy' ></i> Copy</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
